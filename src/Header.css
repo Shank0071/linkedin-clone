@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
+.header__search {
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header__search > input {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.header__right {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,13 @@
+.inputOption {
+    display: flex;
+    color: gray;
+    gap: 5px;
+}
+
+.inputOption:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+}
+
